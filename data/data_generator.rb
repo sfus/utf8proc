@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
+# encoding: utf-8
 
 #  This file was used to generate the 'unicode_data.c' file by parsing the
 #  Unicode data file 'UnicodeData.txt' of the Unicode Character Database.

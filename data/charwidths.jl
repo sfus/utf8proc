@@ -97,7 +97,7 @@ CharWidths=parsesfd("unifont_upper.sfd", CharWidths)
 
 for line in readlines(open("EastAsianWidth.txt"))
     #Strip comments
-    line[1] == '#' && continue
+    length(line) > 0 && line[1] == '#' && continue
     precomment = split(line, '#')[1]
     #Parse code point range and width code
     tokens = split(precomment, ';')

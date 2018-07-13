@@ -10,7 +10,7 @@
 *.dSYM
 *.out
 *.new
-#data/*.txt
+data/*.txt
 data/*.ttf
 data/*.sfd
 /docs/
